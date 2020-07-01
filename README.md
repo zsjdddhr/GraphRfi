@@ -18,6 +18,11 @@ If you use this code, please cite our paper:
 
 
 
+# Acknolwedgement
+The original version of this code base was from GraphRec and NDF. Many thanks to Dr Wenqi Fan for making his code available.
+
+
+
 
 
 
