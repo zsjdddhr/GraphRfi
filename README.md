@@ -16,7 +16,7 @@ If you use this code, please cite our paper:
   year={2020}
 }
 
-
+The completed code will be uploaded recently.
 
 # Acknolwedgement
 The original version of this code base was from GraphRec and NDF. Many thanks to Dr Wenqi Fan for making his code available.
