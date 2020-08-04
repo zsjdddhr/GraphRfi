@@ -15,7 +15,7 @@ If you use this code, please cite our paper:
   booktitle={Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
   year={2020}
 }
-
+run_GraphRfi_example.py only for recommendation robust test. 
 The completed code will be uploaded recently.
 
 # Acknolwedgement
