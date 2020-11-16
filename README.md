@@ -16,7 +16,10 @@ If you use this code, please cite our paper:
   year={2020}
 }
 run_GraphRfi_example.py only for recommendation robust test. 
-The completed code will be uploaded recently.
+To generate shilling attack, the fake users and correspondingly fake ratings can be manipulated based on the rule (e.g. hate, random and average) introduced in the experiment part.
+
+To test the auxiliary task (i.e. fraudster detection), the user set should be split in two sets: training set and testing set. And both sets include fraudster and genuine users. The testing users don't need to be trained in the NRF component by simply setting $L_fraudster$ as $0$, or set a variable $flag \in {0,1}$ to control training or not and then setting the loss as $flag*L_frudster$. 
+
 # Dataset
 Yelp: [Google Drive](https://drive.google.com/drive/folders/0B8JIKvhJUvRdfk8yS1E4T0lXUm1uOGtJUmN2cExMTXRmVUpsSGE2OHRzNkdUT0RyMzA4WDA)
 # Acknolwedgement
