@@ -198,5 +198,5 @@ class NeuralDecisionForest(nn.Module):
         return out
 
 
-    def loss(self, output, label,flag):
-        return self.criterion(torch.log(output), label)*flag.mean()
+    def loss(self, output, label):
+        return self.criterion(torch.log(output), label)
